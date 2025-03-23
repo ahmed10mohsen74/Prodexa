@@ -19,10 +19,23 @@
             <form>
                 <input type="text" placeholder="title" id="title">
                 <div class="price">
-                    <input type="number" onkeyup="getTotal()" placeholder="price" id="price">
-                    <input type="number" onkeyup="getTotal()" placeholder="taxes" id="taxes">
-                    <input type="number" onkeyup="getTotal()" placeholder="ads" id="ads">
-                    <input type="number" onkeyup="getTotal()" placeholder="discount" id="discount">
+                    
+                    <div class="price lable">
+                        <label for="price">Price</label>
+                        <input type="number" onkeyup="getTotal()" placeholder="" id="price">
+                    </div>
+                    <div class="taxes lable">
+                        <label for="taxes">Taxes</label>
+                        <input type="number" onkeyup="getTotal()" placeholder="" id="taxes">
+                    </div>
+                   <div class="ads lable">
+                    <label for="ads">Ads</label>
+                    <input type="number" onkeyup="getTotal()" placeholder="" id="ads">
+                   </div>
+                    <div class="discount lable">
+                        <label for="discount">discount</label>
+                        <input type="number" onkeyup="getTotal()" placeholder="" id="discount">
+                    </div>
                     <small id="total"></small>
 
                 </div>

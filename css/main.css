@@ -53,8 +53,22 @@ input:focus {
 }
 
 .price input {
-    width: 250px;
+    width: 150px;
     margin-right: 5px;
+    padding-left: 80px;
+}
+.lable{
+    position: relative;
+}
+.lable label{
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: #757474;
+    margin-left:6px ;
+
 }
 
 #total {
