@@ -52,7 +52,7 @@ input:focus {
     
 }
 
-.price input {
+.lable input {
     width: 150px;
     margin-right: 5px;
     padding-left: 80px;
@@ -123,6 +123,14 @@ table {
     table {
             font-size: 8px;
     }
+        button{
+                font-size: 10px;
+                    border-radius: 6px
+        }
+        .price{
+                flex-direction: column;
+                align-items: baseline;
+        }
 }
 
 table th {

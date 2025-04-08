@@ -17,9 +17,12 @@
 
         <div class="inputs">
             <form>
-                <input type="text" placeholder="title" id="title">
+                <div class="name lable">
+                    <label for="title">Title</label>
+                    <input type="text" id="title">
+                </div>
                 <div class="price">
-                    
+
                     <div class="price lable">
                         <label for="price">Price</label>
                         <input type="number" onkeyup="getTotal()" placeholder="" id="price">
@@ -28,10 +31,10 @@
                         <label for="taxes">Taxes</label>
                         <input type="number" onkeyup="getTotal()" placeholder="" id="taxes">
                     </div>
-                   <div class="ads lable">
-                    <label for="ads">Ads</label>
-                    <input type="number" onkeyup="getTotal()" placeholder="" id="ads">
-                   </div>
+                    <div class=" ads lable">
+                        <label for="ads">Ads</label>
+                        <input type="number" onkeyup="getTotal()" placeholder="" id="ads">
+                    </div>
                     <div class="discount lable">
                         <label for="discount">discount</label>
                         <input type="number" onkeyup="getTotal()" placeholder="" id="discount">
@@ -39,8 +42,14 @@
                     <small id="total"></small>
 
                 </div>
-                <input type="number" placeholder="count" id="count">
-                <input type="text" placeholder="category" id="category">
+                <div class=" lable">
+                    <label for="count">Count</label>
+                    <input type="number" placeholder="" id="count">
+                </div>
+                <div class="lable">
+                    <label for="category">Category</label>
+                    <input type="text" placeholder="" id="category">
+                </div>
             </form>
             <button id="submit">creat</button>
         </div>
