@@ -5,8 +5,10 @@ let ads = document.getElementById("ads");
 let discount = document.getElementById("discount");
 let total = document.getElementById("total");
 let count = document.getElementById("count");
+let c = document.getElementById("c");
 let category = document.getElementById("category");
 let submit = document.getElementById("submit");
+
 
 let mood = "creat";
 let tmp;
@@ -166,6 +168,7 @@ function updateData(i)
     discount.value = dataPro[i].discount;
     getTotal()
     count.style.display = "none";
+    c.style.display = "none";
     category.value = dataPro[i].category;
     submit.innerHTML = "Update";
 
