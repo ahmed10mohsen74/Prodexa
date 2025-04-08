@@ -82,6 +82,7 @@ submit.addEventListener("click", function ()
             mood = "creat";
             submit.innerHTML = "Creat";
             count.style.display = "block";
+            c.style.display = "block";
         }
 
         clearData()
