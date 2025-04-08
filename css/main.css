@@ -140,7 +140,7 @@ table {
     }
 
     body {
-        width: fit-content;
+        width: 400px;
     }
 
     #search {
@@ -149,6 +149,9 @@ table {
         justify-content: center;
         align-items: center;
         margin: auto;
+    }
+    .lable input{
+        width: 70%;
     }
 }
 
