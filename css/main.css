@@ -134,8 +134,7 @@ table {
                 align-items: baseline;
         }
         body{
-            width: 95%;
-            margin: auto;
+            padding:0px 10px ;
         }
 }
 
