@@ -141,6 +141,8 @@ table {
 
     body {
         width: 400px;
+        display: flex;
+        margin: auto;
     }
 
     #search {
