@@ -133,6 +133,10 @@ table {
                 flex-direction: column;
                 align-items: baseline;
         }
+        body{
+            width: 95%;
+            margin: auto;
+        }
 }
 
 table th {
